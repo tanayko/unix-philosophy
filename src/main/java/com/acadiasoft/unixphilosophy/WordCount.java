@@ -42,7 +42,7 @@ public class WordCount {
 
             // print current statistics
             if (totalLines % 10 == 0) {
-                System.out.printf("%d lines so far, %d bytes processed\n", totalLines, totalBytes);
+                System.err.printf("%d lines so far, %d bytes processed\n", totalLines, totalBytes);
             }
 
             // if there were more than 16 bytes of data from the line that was just read,
